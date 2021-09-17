@@ -38,7 +38,9 @@ def main():
     try:
         #define address info, payload, and buffer size
         host = 'www.google.com'
+        #host = 'localhost'
         port = 80
+        #port = 8001
         payload = f'GET / HTTP/1.0\r\nHost: {host}\r\n\r\n'
         buffer_size = 4096
 
